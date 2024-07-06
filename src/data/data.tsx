@@ -11,13 +11,11 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import getjustitlogo from '../images/portfolio/gejustitlogo.jpeg';
+//import getjustitlogo from '../images/portfolio/gejustitlogo.jpeg';
 import stahltonlogo from '../images/portfolio/Logo_StahlTon_Grau-1.png';
 import mobilefusspflegelogo from '../images/portfolio/justin_logo_lilievorne-removebg-preview.png';
-import profilepic from '../images/justinProfilePic.jpeg';
+//import profilepic from '../images/justinProfilePic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -94,7 +92,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+ // profileImageSrc: //profilepic,
   description: `I am a passionate athlete who enjoys playing both soccer and basketball. In my free time, 
   I love watching football, which never fails to excite me. I played soccer myself for 14 years 
   and have now shifted my focus to coaching, where I enjoy training young players. 
@@ -196,8 +194,8 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Own Company',
     description: 'I founded my own Company and build a Website for it',
-    url: 'https://getjut-it.de',
-    image: getjustitlogo,
+    url: 'https://getjust-it.de',
+    image: stahltonlogo, //provisorisch
   },
   {
     title: 'StahlTon Website',
@@ -214,7 +212,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Website for mobile foot care.',
     description: 'I designed another website for a client in mobile foot care.',
-    url: 'https://reactresume.com',
+    url: 'https://mobile-fusspflege-by-azra-kisselev.de',
     image: mobilefusspflegelogo,
   }
 ];
