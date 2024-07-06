@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/justinProfilePic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Justin Alderath Resume',
+  description: "The Resume of Justin Alderath",
 };
 
 /**
@@ -69,18 +69,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Justin Alderath.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm currently a dual <strong className="text-stone-100">Computer Science Student</strong>, currently working
+        at <strong className="text-stone-100">DEVK Versicherungen</strong> developing Software in Java.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training young adults at <strong className="text-stone-100">Football</strong>,
+        analyzing <strong className="text-stone-100">(American) Football</strong>, or exploring the beautiful{' '}
+        <strong className="text-stone-100">Landscape of Europe</strong>.
       </p>
     </>
   ),
@@ -104,16 +103,20 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `UI am a passionate athlete who enjoys playing both soccer and basketball. In my free time, 
+  I love watching football, which never fails to excite me. I played soccer myself for 14 years 
+  and have now shifted my focus to coaching, where I enjoy training young players. 
+  Professionally and as a hobby, I am deeply involved in the world of software development. 
+  My main programming language is Java, and I particularly enjoy working with Vaadin to create appealing and 
+  functional web applications. Additionally, I have fun enhancing my skills in data visualization using Python. 
+  Learning and applying new technologies is an exciting challenge that I am always eager to embrace.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Cologne, Germany', Icon: MapIcon},
+    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Germany', Icon: FlagIcon},
+    {label: 'Interests', text: 'Football, American Football, Adventures', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Applied Science Bonn-Rhein-Sieg', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'DEVK Versicherunge', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,16 +128,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'German',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Englisch',
+        level: 10,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
@@ -142,9 +145,10 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
+        name: 'JavaScript',
+        level: 3,
+      }
+      /*,
       {
         name: 'Typescript',
         level: 7,
@@ -153,25 +157,27 @@ export const skills: SkillGroup[] = [
         name: 'GraphQL',
         level: 6,
       },
+      */
     ],
   },
   {
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Java',
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
+        name: 'Python',
         level: 4,
       },
+      {
+        name: 'C#',
+        level: 2,
+      },
     ],
-  },
+  }
+  /*,
   {
     name: 'Mobile development',
     skills: [
@@ -188,7 +194,7 @@ export const skills: SkillGroup[] = [
         level: 3,
       },
     ],
-  },
+  },*/
 ];
 
 /**
@@ -196,71 +202,29 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Own Company',
+    description: 'I founded my own Company and build a Website for it',
+    url: 'https://getjut-it.de',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'StahlTon Website',
+    description: 'I rebuilt an outdated website.',
+    url: 'https://stahl-ton.de',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'StahlTon Shop',
+    description: 'The client was very satisfied, so I also designed their first shop using WooCommerce.',
+    url: 'https://shop.stahl-ton.de',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'Website for mobile foot care.',
+    description: 'I designed another website for a client in mobile foot care.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  }
 ];
 
 /**
@@ -268,39 +232,45 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2021 - August 2025',
+    location: 'University for Applied Science Bonn-Rhein-Sieg',
+    title: 'Bachelor in Computer Science',
+    content: <p>Focus Area: Business Informatics</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2012 – July 2020',
+    location: 'Hoelderlin Gymnasium, COlogne',
+    title: 'Abitur (German High School Diploma)',
+    content: <p>I  completed my Abitur, which has provided me with a strong foundation 
+      in a variety of academic subjects and prepared me for future educational and professional endeavors.
+      My Main Focus was in the Subjects of English and Geographics.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'August 2021 - Present',
+    location: 'DEVK Versicherung',
+    title: 'Java Software Developement (Dual Student)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        I have primarily developed Java applications, which I have visualized using Vaadin (versions 14 and 24). 
+        Additionally, I have independently migrated several applications from Java 8 to versions 17 and 21.
+        During this process, I also upgraded Vaadin from version 14 to 24.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2023 - Present',
+    location: 'getJust-IT',
+    title: 'Freelancer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+         primarily focused on website development, frequently utilizing Wordpress. 
+         Additionally, I provided advisory services, assisting clients with technical solutions and platform selection.
+         I managed projects from inception to completion, collaborating closely with designers and content creators. 
+         My expertise includes optimizing websites for performance and SEO, i
+         mplementing industry best practices to enhance user experience and achieve business objectives.
       </p>
     ),
   },
@@ -340,23 +310,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
+      text: 'justin.alderath@getJust-it.de',
       href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Erftstadt, Germany',
+      href: 'https://maps.app.goo.gl/g3d9C4wX6TCsbvUQ8',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@getjustit',
+      href: 'https://www.instagram.com/getjustit/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Justindpy',
+      href: 'https://github.com/Justindpy',
     },
   ],
 };
@@ -365,9 +335,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Justindpy'},
+ // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/justinalderath/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/getjustit/'},
+  //{label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
