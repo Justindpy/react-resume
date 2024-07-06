@@ -67,7 +67,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">DEVK Versicherungen</strong> developing Software in Java.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training young adults at <strong className="text-stone-100">Football</strong>,
+        In my free time, you can catch me training young adults at <strong className="text-stone-100">Football</strong>,
         analyzing <strong className="text-stone-100">(American) Football</strong>, or exploring the beautiful{' '}
         <strong className="text-stone-100">Landscape of Europe</strong>.
       </p>
@@ -106,7 +106,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Germany', Icon: FlagIcon},
     {label: 'Interests', text: 'Football, American Football, Adventures', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Applied Science Bonn-Rhein-Sieg', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'DEVK Versicherunge', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'DEVK Versicherungen', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -229,18 +229,18 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'August 2012 – July 2020',
-    location: 'Hoelderlin Gymnasium, COlogne',
+    location: 'Hoelderlin Gymnasium, Cologne',
     title: 'Abitur (German High School Diploma)',
     content: <p>I  completed my Abitur, which has provided me with a strong foundation 
       in a variety of academic subjects and prepared me for future educational and professional endeavors.
-      My Main Focus was in the Subjects of English and Geographics.</p>,
+      My main focus was in the Subjects of English and Geographics.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'August 2021 - Present',
     location: 'DEVK Versicherung',
+    date: 'August 2021 - Present',
     title: 'Java Software Developement (Dual Student)',
     content: (
       <p>
@@ -256,11 +256,10 @@ export const experience: TimelineItem[] = [
     title: 'Freelancer',
     content: (
       <p>
-         primarily focused on website development, frequently utilizing Wordpress. 
+         Primarily focused on website development, frequently utilizing Wordpress. 
          Additionally, I provided advisory services, assisting clients with technical solutions and platform selection.
          I managed projects from inception to completion, collaborating closely with designers and content creators. 
-         My expertise includes optimizing websites for performance and SEO, i
-         mplementing industry best practices to enhance user experience and achieve business objectives.
+         My expertise includes optimizing websites for performance and SEO, implementing industry best practices to enhance user experience and achieve business objectives.
       </p>
     ),
   },
@@ -296,7 +295,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Here are some ways where you can contact me.',
   items: [
     {
       type: ContactType.Email,
