@@ -17,6 +17,8 @@ import mobilefusspflegelogo from '../images/portfolio/justin_logo_lilievorne-rem
 import stahltonlogo from '../images/portfolio/Logo_StahlTon_Grau-1.png';
 //import profilepic from '../images/justinProfilePic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
+import justinIso from '../images/JustinIsotec.jpg';
+
 import {
   About,
   ContactSection,
@@ -268,12 +270,16 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
+
+
+
 export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
+  imageSrc: testimonialImage
+  /**
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Justin Alderath',
+      text: 'This is an example picture from my time as a youth soccer coach.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
@@ -287,6 +293,15 @@ export const testimonial: TestimonialSection = {
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
+  */
+  ,
+  testimonials: [
+    {
+    name: 'Justin Alderath',
+    text: 'This is an example picture from my time as a youth soccer coach.',
+    image: justinIso,
+  }
+]
 };
 
 /**
@@ -299,8 +314,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'justin.alderath@getJust-it.de',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'justin.alderath@getjust-it.de',
+      href: 'mailto:justin.alderath@getJjst-it.de',
     },
     {
       type: ContactType.Location,
