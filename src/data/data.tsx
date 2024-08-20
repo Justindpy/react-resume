@@ -8,14 +8,14 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
+//import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+//import getjustitlogo from '../images/portfolio/gejustitlogo.jpeg';
+import getjustit from '../images/getJust-IT-logos_black.png';
 import heroImage from '../images/header-background.webp';
 import justinIso from '../images/PHOTO-2022-06-25-21-36-26-2.jpg';
 import mobilefusspflegelogo from '../images/portfolio/justin_logo_lilievorne-removebg-preview.png';
-//import getjustitlogo from '../images/portfolio/gejustitlogo.jpeg';
-import getjustit from '../images/getJust-IT-logos_black.png';
 import stahltonlogo from '../images/portfolio/Logo_StahlTon_Grau-1.png';
 //import profilepic from '../images/justinProfilePic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
