@@ -1,6 +1,6 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
+ // ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
@@ -12,9 +12,10 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import justinIso from '../images/JustinIsotec.jpg';
+import justinIso from '../images/PHOTO-2022-06-25-21-36-26-2.jpg';
 import mobilefusspflegelogo from '../images/portfolio/justin_logo_lilievorne-removebg-preview.png';
 //import getjustitlogo from '../images/portfolio/gejustitlogo.jpeg';
+import getjustit from '../images/getJust-IT-logos_black.png';
 import stahltonlogo from '../images/portfolio/Logo_StahlTon_Grau-1.png';
 //import profilepic from '../images/justinProfilePic.jpeg';
 import testimonialImage from '../images/testimonial.webp';
@@ -75,12 +76,12 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    {
-      href: '/assets/ResumeJustinAlderath.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
+   // {
+   //   href: '/assets/ResumeJustinAlderath.pdf',
+   //   text: 'Resume',
+   //   primary: true,
+   //   Icon: ArrowDownTrayIcon,
+   // },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -156,7 +157,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Java',
-        level: 7,
+        level: 8,
       },
       {
         name: 'Python',
@@ -194,9 +195,9 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Own Company',
-    description: 'I founded my own Company and build a Website for it',
+    description: 'I founded my own Company and built a Website for it',
     url: 'https://getjust-it.de',
-    image: stahltonlogo, //provisorisch
+    image: getjustit, //provisorisch
   },
   {
     title: 'StahlTon Website',
@@ -314,7 +315,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'justin.alderath@getjust-it.de',
-      href: 'mailto:justin.alderath@getJjst-it.de',
+      href: 'mailto:justin.alderath@getJust-it.de',
     },
     {
       type: ContactType.Location,
@@ -326,11 +327,11 @@ export const contact: ContactSection = {
       text: '@getjustit',
       href: 'https://www.instagram.com/getjustit/',
     },
-    {
+    /*{
       type: ContactType.Github,
       text: 'Justindpy',
       href: 'https://github.com/Justindpy',
-    },
+    },*/
   ],
 };
 
@@ -338,7 +339,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Justindpy'},
+  //{label: 'Github', Icon: GithubIcon, href: 'https://github.com/Justindpy'},
  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/justinalderath/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/getjustit/'},
