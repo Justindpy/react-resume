@@ -20,7 +20,7 @@ const Home: FC = memo(() => {
   return (
     <Page description={description} title={title}>
       <Head>
-        <meta name="robots" content="noindex" />
+        <meta content="noindex" name="robots" />
         <title>Meine Seite</title>
       </Head>
       <Header />
