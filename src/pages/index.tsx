@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import Head from 'next/head';
 import {FC, memo} from 'react';
 
 import Page from '../components/Layout/Page';
@@ -18,6 +19,10 @@ const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
     <Page description={description} title={title}>
+      <Head>
+        <meta name="robots" content="noindex" />
+        <title>Meine Seite</title>
+      </Head>
       <Header />
       <Hero />
       <About />
